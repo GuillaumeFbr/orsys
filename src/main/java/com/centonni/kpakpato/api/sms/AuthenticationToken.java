@@ -27,7 +27,7 @@ import java.util.Date;
 class AuthenticationToken {
     private String token_type;
     private String access_token;
-    private Integer expires_in;
+    private Double expires_in;
 
     public String getToken_type() {
 		/*
