@@ -30,6 +30,9 @@ class AuthenticationToken {
     private Integer expires_in;
 
     public String getToken_type() {
+		/*
+		* Test 1 
+		*/
         return token_type;
     }
 
